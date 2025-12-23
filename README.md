@@ -57,11 +57,12 @@ Backend (Local Development)
 
 ⚙️ How It Works
 
-1. User enters a LeetCode username
-2. Frontend sends a request to a **local Node.js server**
-3. Server fetches data from **LeetCode GraphQL API**
-4. Data is processed and sent back to frontend
-5. UI updates dynamically with progress circles and stats
+1. First start the server by doing **npm run dev** in the terminal, it will start your server
+2. User enters a LeetCode username
+3. Frontend sends a request to a **local Node.js server**
+4. Server fetches data from **LeetCode GraphQL API**
+5. Data is processed and sent back to frontend
+6. UI updates dynamically with progress circles and stats
 
 ---
 
